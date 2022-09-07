@@ -490,6 +490,7 @@ php artisan db:seed --class=CreateUsersSeeder
 php artisan serve
 ```
 - Vào http://localhost:8000/
+
 Normal User:
 ```Dockerfile
 Email: user@gmail.com

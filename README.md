@@ -457,19 +457,19 @@ class CreateUsersSeeder extends Seeder
         $users = [
             [
                'name'=>'Admin User',
-               'email'=>'admin@itsolutionstuff.com',
+               'email'=>'admin@gmail.com',
                'type'=>1,
                'password'=> bcrypt('123456'),
             ],
             [
                'name'=>'Manager User',
-               'email'=>'manager@itsolutionstuff.com',
+               'email'=>'manager@gmail.com',
                'type'=> 2,
                'password'=> bcrypt('123456'),
             ],
             [
                'name'=>'User',
-               'email'=>'user@itsolutionstuff.com',
+               'email'=>'user@gmail.com',
                'type'=>0,
                'password'=> bcrypt('123456'),
             ],
@@ -492,7 +492,7 @@ php artisan serve
 - Vào http://localhost:8000/
 Normal User:
 ```Dockerfile
-Email: user@itsolutionstuff.com
+Email: user@gmail.com
 Password: 123456
 ```
 
@@ -500,7 +500,7 @@ Password: 123456
 
 Admin User:
 ```Dockerfile
-Email: admin@itsolutionstuff.com
+Email: admin@gmail.com
 Password: 123456
 ```
 
@@ -508,7 +508,7 @@ Password: 123456
 
 Manager User:
 ```Dockerfile
-Email: manager@itsolutionstuff.com
+Email: manager@gmail.com
 Password: 123456
 ```
 
